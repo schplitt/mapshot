@@ -36,6 +36,7 @@
     "json5",
     "jsonc",
     "yaml",
+    "yml",
     "toml",
     "xml",
     "gql",
