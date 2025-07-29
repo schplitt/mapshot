@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleDetection": "force",
+
+    "module": "esnext",
+    "moduleResolution": "bundler",
+
+    "resolveJsonModule": true,
+
+    "types": ["node"],
+    "strict": true,
+
+    "noUncheckedIndexedAccess": true,
+    "declaration": true,
+
+    "noEmit": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.ts", "./vite.config.ts"],
+  "exclude": ["./src/map/**/*.ts", "./src/map/**/*.vue"]
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "moduleDetection": "force",
+
+    "module": "esnext",
+    "moduleResolution": "bundler",
+
+    "resolveJsonModule": true,
+    "types": ["vite/client"],
+    "strict": true,
+
+    "noUncheckedIndexedAccess": true,
+    "declaration": true,
+
+    "noEmit": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/map/**/*.ts", "./src/map/**/*.vue"]
+}
