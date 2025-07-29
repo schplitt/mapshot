@@ -14,7 +14,17 @@
   "bugs": {
     "url": "https://github.com/schplitt/mapshot/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "map",
+    "screenshot",
+    "maps",
+    "cli",
+    "automation",
+    "markers",
+    "geolocation",
+    "cartography",
+    "mcp"
+  ],
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
