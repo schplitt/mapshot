@@ -4,7 +4,7 @@ catalogs:
   cli:
     citty: ^0.1.6
     consola: ^3.4.2
-    tmcp: ^1.8.2
+    tmcp: ^1.16.0
   deps:
     defu: ^6.1.4
     leaflet: ^1.9.4
@@ -26,7 +26,7 @@ catalogs:
     simple-git-hooks: ^2.13.0
   mcp:
     '@tmcp/adapter-valibot': ^0.1.3
-    '@tmcp/transport-stdio': ^0.1.2
+    '@tmcp/transport-stdio': ^0.4.0
   types:
     '@types/leaflet': ^1.9.20
     '@types/node': ^24.1.0
